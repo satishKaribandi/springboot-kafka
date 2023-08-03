@@ -20,9 +20,7 @@ public class Customer  implements Serializable{
 		
 	}*/
 	   
-	  public Customer() {
-		  
-	  }
+	 
 
 	  private String customerId;
 	  public Customer(String customerId, String customerName, float salary, Status status) {

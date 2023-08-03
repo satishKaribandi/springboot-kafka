@@ -15,7 +15,7 @@ public class KafKaTopicListeners {
 
   @KafkaListener(topics = {"customerDetails"}, groupId = "task-group")
   public void consume(Customer customer) {
-
+	  
     logger.info(String.format("Task status is updated : " + customer));
   }
 }
